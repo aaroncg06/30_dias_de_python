@@ -1,0 +1,9 @@
+x=4
+type(x)
+print(x)
+print(type(x+x))
+a=175 #height in cm
+type(a)
+b=3
+c=2j
+print(b+c)

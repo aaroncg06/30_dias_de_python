@@ -7,3 +7,19 @@ type(a)
 b=3
 c=2j
 print(b+c)
+
+base=20
+height=10
+area=100
+"base":20
+"height":10
+"area":0.5*20*10
+
+
+
+
+
+Enter a:5
+Enter b:4
+Enter c:3
+The perimeter of the triangle is 12

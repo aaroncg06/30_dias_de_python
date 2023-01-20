@@ -8,42 +8,42 @@ Age = 16
 is_married = "true"
 year = 2006
 computer = "is light on"
- first_name, last_name, country, age, year = "aaron","cantador gomez", "spain", "16","2006"
+_first_name, last_name, country, age, year = "aaron","cantador gomez", "spain", "16","2006"
 
  #level 2/
 print(type("aaron"))
 print(type("cantador_gomez"))
-number_one = 5
+number_one = 5 
 number_two = 4
-number_one + number_two = 9
-number_one - number_two = 1
-number_one · number_two = 20
-number_one / number_two = 1.25
-number_one % number_two = 1
-number_one ** number_two = 5**4
-number_one // number_two =  1
+number_one + number_two # 9
+number_one - number_two #1
+number_one . number_two #20
+number_one / number_two #1.25
+number_one % number_two #1
+number_one ** number_two #625
+number_one // number_two #1
 
 π = 3.14
 radio=int(input("30"))
 area_of_the_circle=π*radio*radio
-print(el area es:"2826")
+print ( el area es: "2826") 
 circum_of_the_circle=2*π*radio
-print(la circunferencia= "188,4")
+print( la circunferencia= "188,4")
 radio=int(input("30"))
 area_of_the_circle=π*radio*radio
-print(el area es:"2826")
+print( el area es:"2826")
 
 first_name = input("What is your name?")
 last_name = input("what is your last name?")
 age = input("How old are you? ")
 country= input("what is your country")
-print(first_name=aaron)
-print(last_name=cantador gomez)
+print(first_name) 
+print(last_name = cantador gomez)
 print(age=16)
-print(country=spain)
+print(country = spain)
 
 help ("keywords")
-False               class               from                or
+(False               class               from                or
 None                continue            global              pass
 True                def                 if                  raise
 and                 del                 import              return
@@ -51,4 +51,4 @@ as                  elif                in                  try
 assert              else                is                  while
 async               except              lambda              with
 await               finally             nonlocal            yield
-break               for                 not       
+break               for                 not  )     

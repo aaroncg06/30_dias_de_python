@@ -26,7 +26,7 @@ number_one // number_two #1
 π = 3.14
 radio=int(input("30"))
 area_of_the_circle=π*radio*radio
-print ( el area es: "2826") 
+print (" el area es": "2826")
 circum_of_the_circle=2*π*radio
 print( la circunferencia= "188,4")
 radio=int(input("30"))
@@ -37,10 +37,10 @@ first_name = input("What is your name?")
 last_name = input("what is your last name?")
 age = input("How old are you? ")
 country= input("what is your country")
-print(first_name) 
-print(last_name = cantador gomez)
-print(age=16)
-print(country = spain)
+print(first_name = "aaron") 
+print(last_name ="cantador gomez")
+print(age = "16")
+print(country = "spain")
 
 help ("keywords")
 (False               class               from                or

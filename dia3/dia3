@@ -30,3 +30,21 @@ print ("periemtro rectangulo") : int(input("2")) *  (int(input("lenght=10")) + i
 "pi" : 3.14
 print ("area circulo") : int(input("pi")) * int(input("radio")) * int(input("radio"))
 print ("circunferencia circulo") : int(input("2")) * int(input("radio")) * int(input("pi"))
+
+print("x : 1")
+print("y : -2")
+print("slope : 2")
+
+print("distance : y2-y1/x2-x1") 
+y2 = 10
+y1 = 2
+x2 = 6
+x1 = 2
+print((y2-y1)/(x2-x1))
+
+print (2 < (y2-y1)/(x2-x1) )
+
+print(x**2+6*x+9)
+if x : -3
+print (-3**2+6*-3+9 ) : 0
+

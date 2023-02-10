@@ -1,0 +1,38 @@
+print ("thirty"+ "days"+ "of" +"python")
+
+print ("coding" + "for" + "all")
+
+company = ("coding for all")
+print ("company")
+print(len(company))
+
+print.upper(company)
+print.lower(company)
+print.capitalize(company)
+print.title(company)
+print.swapcase(company)
+
+print.company.find("coding")
+print.company.replace("coding","python")
+
+print ("python for all" .replace( "all","everyone"))
+
+print (company.split())
+
+print ("facebook,google, microsoft, apple, IBM, oracle, amazon ".split(","))
+
+print ("coding for all"(0)) 
+print (len("coding for all"))-1
+print("coding for all"(10))
+
+a = "python for everyone"
+b = "coding for all"
+
+print("a"("c"))
+print("a"("f"))
+
+print("coding for al people". refind("l"))
+
+print("you cannot end a sentence whit because because because is a conjuntion".find("because"))
+
+dia24

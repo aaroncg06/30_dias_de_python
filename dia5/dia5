@@ -1,0 +1,36 @@
+print(type(my_list))
+print(len(my_list))
+my_list = (botella, campana, libro, libreta, goma, vaso, suelo )
+
+lenght_of_the_list = (7)
+
+print (first_my_list)
+print (third_my_list)
+print(last_my_list)
+
+print(type(mixed_data_types))
+print(len(mixed_data_types))
+mixed_data_types = (aaron, 17, 79, soltero, mi_casa)
+
+print(type(it_companies))
+print(len(it_companies))
+it_companies = (Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon)
+
+print(it_companies)
+
+print (first_it_companies)
+print(fourth_it_companies)
+print(last_it_companies)
+
+it_companies{0} = LG
+print (it_companies)
+
+it_companies.append(netflix)
+print (it_companies)
+
+it_companies.insert(4, nvidia)
+print (it_companies)
+
+it_companies[1] = Google
+print (it_companies)
+

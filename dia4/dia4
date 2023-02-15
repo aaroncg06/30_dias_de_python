@@ -35,4 +35,6 @@ print("coding for al people". refind("l"))
 
 print("you cannot end a sentence whit because because because is a conjuntion".find("because"))
 
-dia24
+print("you cannot end a sentence whit because because is a conjuntion".rfind("because"))
+
+print("you cannot end a sentence whit because because because because is a conjuntion".replace("because because because " ))

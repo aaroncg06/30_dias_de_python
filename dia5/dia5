@@ -1,36 +1,65 @@
-print(type(my_list))
-print(len(my_list))
-my_list = (botella, campana, libro, libreta, goma, vaso, suelo )
+print(type("my_list"))
+print(len("my_list"))
+my_list = ["botella, campana, libro, libreta, goma, vaso, suelo"]
 
 lenght_of_the_list = (7)
 
-print (first_my_list)
-print (third_my_list)
-print(last_my_list)
+print ("first_my_list")
+print ("third_my_list")
+print("last_my_list")
 
-print(type(mixed_data_types))
-print(len(mixed_data_types))
-mixed_data_types = (aaron, 17, 79, soltero, mi_casa)
+print(type("mixed_data_types"))
+print(len("mixed_data_types"))
+mixed_data_types = ("aaron, 17, 79, soltero, mi_casa")
 
-print(type(it_companies))
-print(len(it_companies))
-it_companies = (Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon)
+print(type("it_companies"))
+print(len("it_companies"))
+it_companies = ("Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon")
 
 print(it_companies)
 
-print (first_it_companies)
-print(fourth_it_companies)
-print(last_it_companies)
+print ("first_it_companies")
+print("fourth_it_companies")
+print("last_it_companies")
 
-it_companies{0} = LG
+it_companies[0] = "LG"
 print (it_companies)
 
-it_companies.append(netflix)
+it_companies.append("netflix")
 print (it_companies)
 
-it_companies.insert(4, nvidia)
+it_companies.insert("4, nvidia")
 print (it_companies)
 
-it_companies[1] = Google
+it_companies[1] = "Google".uppercase
 print (it_companies)
 
+number=1
+it_companies_number=it_companies+number
+print(it_companies_number)
+
+does_exist="Apple"in it_companies
+
+it_companies.sort()
+print(it_companies)
+
+it_companies.sort("reverse=true")
+print (it_companies)
+
+all_it_companies=it_companies[0:2]
+all_it_companies=it_companies[4:7]
+all_it_companies=it_companies[3]
+
+del it_companies[0]
+del it_companies[3]
+del it_companies[6]
+del it_companies[0,1,2,3,4,5,6]
+
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+front_end_and_back_end=front_end+back_end
+print("fornt_end_and_back_end")
+
+front_end_and_back_end.insert[5, "python"]
+front_end_and_back_end.insert[6, "SQL"]
+print("front_end_and_back_end")

@@ -1,0 +1,13 @@
+brothers=("yoel", "Luis", "Jorge")
+sisters=("Maria","Lucia", "Marta")
+
+brothers_and_sisters= brothers+sisters
+
+siblings= ("yoel", "Luis", "Jorge", "Maria","Lucia", "Marta")
+brothers_and_sisters= siblings
+all_siblings = siblings[0:6]
+
+father_mother= ("Jesus","Maria Luisa")
+siblings_and_father_mother= siblings+father_mother
+family_members= ("yoel", "Luis", "Jorge","Maria","Lucia", "Marta","Jesus","Maria Luisa")
+siblings_and_father_mother= family_members

@@ -1,0 +1,40 @@
+dog = {
+"name":"Rudy",
+"color": "brown_and_white",
+"breed" : "chihuahua",
+"legs" : "four" ,
+"age": "five_years_old",
+}
+
+Student ={ 
+"first_name":"Aaron",
+"last_name":"cantador_gomez",
+"age":"17_years_old",
+"gender":"male",
+"marital_status":"single",
+"skills":"none",
+"country":"spain",
+"city":"jerez",
+"adress" {
+"street":"top_secret",
+"zipcode":"top_secret",
+} }
+
+
+print(len(Student))
+
+values= Student.values()
+print(values)
+Student["skills"].append("walk", "think")
+
+keys=Students.keys()
+print(keys)
+
+values= Student.values()
+print(values)
+
+print(Student.items())
+
+del Student["skills"]
+
+del dog

@@ -52,14 +52,15 @@ if months == ("september","october" and "november"):
    print("autumn")
 
 fruits = ['banana', 'orange', 'mango', 'lemon']
- if in fruit s== ("banana"):
-   print('That fruit already exist in the list')
+new_fruits = ["banana", "apple", "watermelon"]
+  
+if new_fruits in fruits:
+   print ("That fruit already exist in the list")
+else:
+   new_fruits not in fruits
+   print ("That fruit does not already exist in the list ")
 
-
-
-
-
-
+   
 
 
 

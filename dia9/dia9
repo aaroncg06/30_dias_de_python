@@ -13,54 +13,47 @@ if b < a:
  print ("b is smaller than b")
 
 
- number = ("1-100")
- A = 90-100
- B = 70-89
- C = 60-69
- D = 50_59
- F = 0-49
 
- if number > 90 and number < 100 :
-    print ("grade A")
+ number = int(input("Enter a number between 1 and 100: "))
 
- if number > 70 and  number < 89 :
-    print("grade B ")
-
- if number > 60 and number < 69:
-    print("grade C")
- 
- if number > 50 and number < 59:
-    print("grade  D")
-
- if number > 0 and number < 49:
-    print("grade  F")
+if number >= 90 and number <= 100: 
+    print("Grade A")
+elif number >= 70 and number <= 89:
+    print("Grade B")
+elif number >= 60 and number <= 69:
+    print("Grade C")
+elif number >= 50 and number <= 59:
+    print("Grade D")
+elif number >= 0 and number <= 49:
+    print("Grade F")
+else:
+    print("That number is invalid, please try another one")
 
 
-months = ("january", "febrary", "march", "april", "may","june", "july", "august", "september", "october", "november", "december")
+months = ("january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december")
 autumn = ("september", "october", "november")
-winter = ("december" , "january", "febrary")
+winter = ("december" , "january", "february")
 spring = ("march", "april", "may")
 summer = ("june", "july", "august")
 
-if months == ("january", "febrary" and "december"):
-    print ("winter")
-if months == ("march", "april" and "may",):
-   print ("spring")
-if months == ("june", "july" and "august"):
-   print ("summer")
-if months == ("september","october" and "november"):
-   print("autumn")
+if "january" in months and "february" in months and "december" in months:
+    print("winter")
+if "march" in months and "april" in months and "may" in months:
+    print("spring")
+if "june" in months and "july" in months and "august" in months:
+    print("summer")
+if "september" in months and "october" in months and "november" in months:
+    print("autumn")
 
-fruits = ['banana', 'orange', 'mango', 'lemon']
-new_fruits = ["banana", "apple", "watermelon"]
-  
-if new_fruits in fruits:
-   print ("That fruit already exist in the list")
+
+fruits=['banana', 'orange', 'mango', 'lemon']
+new_fruit = input("Enter a new fruit: ")
+if new_fruit in fruits:
+    print("That fruit already exists in the list")
 else:
-   new_fruits not in fruits
-   print ("That fruit does not already exist in the list ")
+    fruits.append(new_fruit)
+    print("That fruit does not already exists in the list")
 
-   
 
 
 

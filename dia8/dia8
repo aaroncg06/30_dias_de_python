@@ -15,7 +15,7 @@ Student ={
 "skills":"none",
 "country":"spain",
 "city":"jerez",
-"adress" {
+"adress": {
 "street":"top_secret",
 "zipcode":"top_secret",
 } }
@@ -25,9 +25,11 @@ print(len(Student))
 
 values= Student.values()
 print(values)
-Student["skills"].append("walk", "think")
+Student["skills"].append("walk")
+Student["skills"].append("think")
 
-keys=Students.keys()
+
+keys=Student.keys()
 print(keys)
 
 values= Student.values()

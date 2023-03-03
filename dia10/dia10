@@ -21,8 +21,7 @@ while number == 0:
      break
 
 
-
-"#" 
+a = "#" 
 for number in range(1, 8):
     print("#" * number)
     
@@ -37,8 +36,26 @@ list=['Python', 'Numpy','Pandas','Django', 'Flask']
 for list in list:
     print(list(0-4))
 
-for number in range (1-100):
+for number in range (0-101):
    print (number // 2)
+   if number == 0:
+    break
+   print (number)
+ 
 
-for number in range (1-100):
-    print ()
+
+for number in range (0-101):
+ print (number // 2 )
+ if number != 0:
+    break
+print (number)
+ 
+suma = a
+for b in range (0-101):
+   suma += b
+   print(suma)
+
+suma = a
+for b in range(0,101,2):
+   suma += b
+   print(suma) 

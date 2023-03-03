@@ -1,0 +1,5 @@
+def number_sum():
+    first_number = 3
+    second_number = 2
+    sum = first_number + second_number
+    print(number_sum)

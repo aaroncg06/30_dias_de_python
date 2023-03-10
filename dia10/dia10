@@ -59,3 +59,10 @@ suma = a
 for b in range(0,101,2):
    suma += b
    print(suma) 
+   
+number == 1
+while list(range(1-101)):
+    print(number)
+    number == number+number
+    if number (5050):
+     break

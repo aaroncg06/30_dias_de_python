@@ -3,3 +3,40 @@ def number_sum():
     second_number = 2
     sum = first_number + second_number
     print(number_sum)
+
+def circle_area():
+    pi= "3.14"
+    r= "radio"
+    circle_area=pi*r*2
+    return area
+print(cirlce_area)
+
+
+def all_nums():
+    numbers= print(random.randint(1, 10000))
+
+
+
+def convert_C_to_F():
+    C=int(print(10000, -273))
+    F=F
+    convert_C_to_F= F*(C*9/5)+32
+    print(convert_C_to_F)
+
+
+def check_season():
+ autumn = ("september", "october", "november")
+ winter = ("december" , "january", "february")
+ spring = ("march", "april", "may")
+ summer = ("june", "july", "august")  
+ if  input("september", "october", "november"):
+    print(autumn)
+ if input("december" , "january", "february"):
+    print(winter)
+ if input ("march", "april", "may"):
+    print(spring)
+ if input ("june", "july", "august"):
+    print (summer)
+
+def calculate_slope():
+    y=mx
